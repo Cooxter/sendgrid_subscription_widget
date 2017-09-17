@@ -1,7 +1,7 @@
 // Change the url to the domain of your app
 exports.url = 'https://iwa-web-newsletter.herokuapp.com';
 
-exports.senderEmail = "newsletter@irishworldacademy.com";
+exports.senderEmail = "newsletter@irishworldacademy.ie";
 exports.senderName = "IWA Newsletter";
 
 // set 'exports.listId = null' to add contact to all contacts, but no specific list
