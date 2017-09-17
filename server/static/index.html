@@ -13,8 +13,9 @@
 		
 		<fieldset>
 		<legend>Select topics you are interested in</legend>
-		<label for="General">General</label>
-		<input type="checkbox" name="General" value="General"><br>
+		<input class="checkbox" type="checkbox" name="General" value="General"><br>
+		<label class="checkbox_label" for="General">General</label>
+		
 		</fieldset>
 
 		<button type="submit" value="Submit" />SIGN UP</button>
@@ -65,5 +66,12 @@ button {
 	height: 32px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	float: right;
+}
+.checkbox{
+	height: 12px;
+    	width: auto;
+}
+.checkbox_label{
+	margin-top: 0px;
 }
 </style>
